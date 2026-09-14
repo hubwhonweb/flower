@@ -8,7 +8,7 @@ if(isset($_SESSION['WHOAMI']) == FALSE ){
 	header("Location: " . $BASE_DIR . "login/login.php");
 }
 if( canI("process_rose/batch_delete.php") == FALSE){
-	echo "权限不够,请与管理员联系。";
+	echo "权限不够,请与管理员联.     系。";
 	exit();
 }
 
